@@ -1,0 +1,16 @@
+:root {
+    --main-header-height :60px;
+}
+
+#main-header {
+    height:var(--main-header-height) ;
+    
+}
+
+#main-section {
+    height: calc(100vh - var(--main-header-height));
+}
+
+#content {
+    overflow: auto;
+}
